@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 18" width="20" height="18">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M1329 -56L-571 -56L-571 4809.45L1329 4809.45L1329 -56Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #4527a0 } 
+	</style>
+	<g id="Artboard1" clip-path="url(#cp1)">
+		<g id="Layer 90">
+			<path id="ic_home_24px" class="shp0" d="M8.17 17.83L8.17 11.83L12.17 11.83L12.17 17.83L17.17 17.83L17.17 9.83L20.17 9.83L10.17 0.83L0.17 9.83L3.17 9.83L3.17 17.83L8.17 17.83Z" />
+		</g>
+	</g>
+</svg>
