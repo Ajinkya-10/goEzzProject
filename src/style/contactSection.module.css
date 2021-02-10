@@ -1,0 +1,62 @@
+.contact_us {
+    background-color: var(--purple);
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    padding: 2.5em;
+}
+
+.contact_inner .Heading {
+    color: #ffff;
+    line-height: 2.3em;
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.Heading span{
+    font-weight: 300;
+}
+.contact_inner .Heading::after {
+    content: "";
+    width: 100%;
+    max-width: 5.075em;
+    height: 100%;
+    min-height: 1px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    background-color: #ff6d00;
+}
+
+.contact_inner .search {
+    margin-bottom: 0;
+    margin-top: 1em;
+    font-size: 1.25em;
+    font-weight: 300;
+    line-height: 1.4375em;
+}
+
+.contact_inner .contact_para {
+    width: 100%;
+    max-width: 32.1875em;
+    margin: auto;
+    margin-bottom: 1em;
+    font-size: 1.25em;
+    font-weight: 300;
+    line-height: 1.4375em;
+}
+
+.contact_inner .contact_para .contact_link {
+    color: var(--orange);
+}
+
+.contact_inner .btn {
+    margin-top: 1em;
+    padding: 0.3em 2em;
+    font-size: 1.2em;
+    background-color:  var(--success);
+    color: #ffffff;
+    border-radius: 2em;
+}

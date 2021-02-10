@@ -1,0 +1,54 @@
+.secureSection{
+    padding-bottom: 12.5em;
+    background-size: contain;
+    padding: 0 2em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.Heading {
+    color: var(--purple);
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    margin-top: 1.5em;
+}
+.subHeading{
+    font-size: 1.25em;
+    font-weight: 700;
+    color: var(--purple);
+}
+.text{
+    color: var(--success);
+    font-weight: 300;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+.secureSection .list{
+    margin: 1.5em 0;
+    padding-left: 1.8em;
+}
+.secureSection .list .listItem{
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 0.5em;
+    color: var(--grey);
+}
+.secureSection .list .listItem::marker{
+    font-size: 1.7em;
+    color: var(--success);
+}
+.secureSection .downloads .downloadLink
+{
+    padding-right: 1em;
+    margin-top: 0.7em;
+}
+.loadInner img{
+    width: 100%;
+    max-width: 10.6875em;
+    height: 3.125em;
+    margin-right: 1em;
+}
+/* .> MEDIA QURIES <. */
+

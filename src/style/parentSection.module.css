@@ -1,0 +1,43 @@
+.parentSection {
+    padding: 4em 0 2em 0;
+    position: relative;
+}
+.parentSection img{
+    width: 25.4375em;
+}
+.para {
+    width: 100%;
+    max-width: 19.75em;
+    font-size: 1.25em;
+    line-height: 1.5625em;
+    font-weight: 500;
+    color: var(--grey);
+}
+.Heading {
+    color: var(--purple);
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.text{
+    color: var(--success);
+    font-weight: 300;
+    font-size: 2em;
+}
+.parentSection .btn {
+    background-color: var(--success);
+    color: #ffffff;
+    border-radius: 2em;
+    font-size: 1em;
+}
+
+
+/* .> MEDIA QURIES <. */
+
+
+
+
+
+
+/* Parent-Section Close */

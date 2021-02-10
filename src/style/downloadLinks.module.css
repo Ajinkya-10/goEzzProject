@@ -1,0 +1,28 @@
+.download_links {
+    text-align: center;
+    padding: 3.5em;
+    position: relative;
+    z-index: 2;
+    background-color: #ffffff;
+}
+.load_heading{
+    font-size: 1.25em;
+    font-weight: 400;
+}
+.download_links .load_link {
+    padding-right: 1em;
+    margin-top: 0.7em;
+    width: 100%;
+    max-width: 10.5625em;
+}
+
+
+/* .> MEDIA QURIES <. */
+
+@media (max-width: 768px) {
+    .load_inner {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

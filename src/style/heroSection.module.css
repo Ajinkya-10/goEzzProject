@@ -1,0 +1,63 @@
+.HeroSection {
+    padding: 3em 0;
+    position: relative;
+    overflow: hidden;
+}
+.customcontainer{
+    margin: 0 24em;
+}
+.HeroSection .para{
+    color:var(--grey);
+    font-weight: 500;
+    line-height: 1.375em;
+    font-size: 1.25em;
+    margin-bottom: 0.95em;
+}
+.HeroSection .information {
+    align-self: center;
+}
+
+.information .Heading {
+    font-size: 3em;
+    font-weight: 400;
+    color: var(--purple);
+    margin: 0;
+}
+.information>.Heading:nth-child(2){
+    margin-bottom: 0.35em; 
+    max-width: 11em;
+}
+.information .Heading span {
+    color: var(--orange);
+    font-weight: 300;
+}
+
+.information .busImage {
+    width: 33em;
+    margin-bottom: 4px;
+}
+
+.information .videoLink {
+    color: var(--orange);
+    font-weight: 500;
+    display: block;
+    font-size: 0.875em;
+    margin-top: 0.4em;
+}
+
+
+@media (max-width: 1200px) {
+    .customcontainer{
+        margin: 0 16em;
+    }
+}
+@media (max-width: 768px) {
+    .customcontainer{
+        margin: 0 12em;
+    }
+}
+@media (max-width: 500px) {
+    .customcontainer{
+        margin: 0 5em;
+    }
+}
